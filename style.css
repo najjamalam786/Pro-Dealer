@@ -1,0 +1,566 @@
+*{
+    box-sizing: border-box;
+}
+*{
+    margin: 0;
+    padding: 0;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+.logo{
+    width:20%;
+    display: flex;
+    color:white;
+    font-size: 18px;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 30px;
+    align-items:center ;
+    cursor: pointer;
+
+}
+.logo .a-logo{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    font-size: 35px;
+    transition: 0.2s ease;
+}
+/* .logo .a-logo:hover{
+    font-size: 37px;
+} */
+.logo .H{
+    margin: 4px 2px;
+    border: 3px solid rgb(255 254 0);
+}
+.logo .ome{
+    font-size: 18px;
+    margin: 22px 0px 0px 1px;
+}
+.logo .img-logo {
+    width: 45px;
+    height: 45px;
+    border: solid 3px white;
+    margin-right: 4px;
+    margin-top: 4px;
+    border-radius: 100%;
+}
+.navbar-resp{
+    /* position: sticky; */
+    display: flex;
+    height: 60px;
+    border-bottom: 3px solid #daff00;
+    background-color: rgb(205, 205, 205);
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    
+
+}
+.nav-list{
+    width: 70%;
+    display: flex;
+    align-items: center;
+
+}
+.nav-list li{
+    list-style: none;
+    padding: 1px 12px;
+    font-size: 20px;
+}
+.nav-list li a{
+    text-decoration: none;
+    color: #665a5a;
+}
+.nav-list li a:hover{
+    text-decoration: none;
+    background-color: rgb(7, 7, 7);
+    border: solid 0px white;
+    border-radius: 18px;
+    padding: 6px;
+    transition: 0.1s ease;
+    color: rgb(251, 247, 247);
+}
+.rightNav{
+    width: 70%;
+    text-align: right;
+    margin-right:50px ;
+    display: block;
+    
+    
+}
+.background{ 
+    background:rgba(4, 6, 5, 0.412) url(Land\ pic.jpg);
+    background-size: contain;
+    /* background-attachment: fixed; */
+    background-blend-mode: darken; 
+    width: 100%;
+    height:375px ;
+    
+    
+} 
+ /* .firstSection{ 
+    height: 300px;
+
+ } */
+.searchContainer__tagline {
+    color: rgb(255, 159, 4);
+    font-size: 32px;
+    font-weight: 800;
+    /* line-height: 1.5; */
+    padding-top: 100px;
+    text-align: center;
+}
+#search{
+    /* padding: 5px; */
+    font-size: 19px;
+    border:none;
+    /* border-radius: 2px; */
+    background-color: rgb(255, 255, 255);
+    padding: 5px 55px 6px 25px;
+    outline: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100vh;
+    height: 60px;
+    
+    
+}
+.searchbar{
+    padding:50px ;
+    justify-content: center;
+    align-items: stretch;
+    margin: auto; 
+    display: flex;
+    flex-wrap: wrap; 
+
+}
+/* #search:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+} */
+.btn-sm{
+    background-color: rgba(12, 12, 12, 0.867);
+    /* justify-content: center; */
+    color: white;
+    border:4px solid white;
+    border-bottom-right-radius: 20px;
+    font-size: 28px;
+    padding: 6px 13px;
+    
+    cursor: pointer;  
+    
+}
+.btn{
+    background: none;
+    color: white;
+    padding: 4px 14px;
+    /* margin: 7px 0; */
+    border: solid white 2px;
+    border-radius: 8px;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+.btn-lg {
+    background: rgb(18, 18, 253);
+    color: white;
+    font-size: 16px;
+    padding: 7px 13px;
+    margin: 14px 38px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/* .btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+} */
+.btn-dark{
+    background:none;
+    color: black;
+    border:2px solid rgb(92, 91, 91);
+    margin-bottom: 20px;
+    padding: 2px 6px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* .box-main{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 70%;
+
+} */
+/* .box-main2{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    color:rgb(255, 217, 1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    
+
+} */
+/* .crntime{
+    
+    font-size: 35px;
+
+}
+.firstHalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+} 
+.secondHalf{
+    width: 30%;
+
+}
+.secondHalf img{
+    width: 70%;
+    border:4px solid white;
+    border-radius: 150px;
+    display:block;
+    margin: auto;
+
+} */
+.frontrow{
+    max-width: 100%;
+    margin: auto;
+}
+
+.thumbnail{
+    width: 35%;
+    padding: 0 15px;
+
+}
+.trust{
+    width: 35%;
+    padding: 0px 20px 40px;
+
+}
+
+.text-big{
+    color: rgb(72 203 64);
+    font-size: 30px;
+    font-weight: 800;    
+}
+.text-small{
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.imgFluid {
+    width:420px;
+    height: 250px;
+    border-radius: 4px;
+    margin-top: 100px;
+    /* margin-left: -100px; */
+}
+.imgTrust {
+    width: 435px;
+    height: 225px;
+    border-radius: 4px;
+    margin: 8px 0px -225px -30px;
+    /* margin-left: -100px; */
+}
+.t {
+    border-right: 4px solid rgb(181 90 90);
+    /* left: 55%; */
+    width: 5%;
+    height: 35vh;
+    margin-top: 100px;
+    
+}
+.GovSection{
+    width: 30%;
+    padding-left: 55px;
+}
+
+.biharbhumi {
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    margin: 40px 0px 20px 2px;
+    padding-top: 100px;
+    color: #ef3232;
+}
+.section {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    max-width: 99%;
+    margin: auto;
+    padding: 0px 0px 120px 12px;
+}
+/* .left{
+    flex-direction: row-reverse;
+} */
+
+.paras{
+    padding: 0px 65px;
+}
+.contact{
+    
+    background-color: rgba(191, 187, 187, 0.523);
+    align-items: center;
+    
+    margin: auto;
+    height:100%;
+}
+.text-center{
+    text-align: center;
+    padding: 0px;
+
+    font-size: 30px;
+}
+.form{
+    max-width: 244px;
+    margin:2px auto;
+
+}
+.form input {
+    margin: 15px 0;
+    padding: 2px 2px;
+    width: 100%;
+    font-size: 17px;
+    border: 2px solid gray;
+    border-radius: 4px;
+}
+#text{
+    margin: 15px 0;
+    padding: 2px 2px;
+    width: 100%;
+    font-size: 17px;
+    border: 2px solid gray;
+    border-radius: 4px;
+}
+footer{
+    background-color: rgb(247, 152, 145);
+    color: white;
+
+}
+.text-footer{
+    text-align: center;
+    padding: 30px 0;
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+
+
+}
+.burger{
+    display: none;
+    position: absolute;
+    left: 3%;
+    top: 12px;
+    cursor: pointer;
+    
+}
+.form-check {
+    margin-top: 6px;
+    margin-right: 12px;
+}
+.line {
+    width: 24px;
+    background-color: white;
+    height: 3px;
+    margin: 5px;
+    border-radius: 2px;
+}
+.contact-img{
+
+    display: flex;
+    flex-direction: row;
+}
+.contentsection {
+    /* font-size: 25px; */
+    background-image: url(bihar-3.png);
+    color: rgb(0, 0, 0);
+    padding: 137px 20px 0px 280px;
+    margin: 25px 0px 265px 5px;
+}
+/* .bihar1{
+    
+    width: 300px;
+    height: 250px;
+    padding: 0px 0px 0px 0px;
+} */
+/* .contact-img {
+    
+    display: flex;
+    justify-content: center;
+    
+} */
+.card-img{
+    /* background:  url(logo-png-transparent-png.png); */
+    /* background-attachment: fixed;
+    background-blend-mode: darken; */
+    width: 600px;
+    height: 820px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+.form-dark{
+    background-color: rgba(191, 187, 187, 0.523);
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    height: 100%;
+}
+.md-form{
+    
+    padding: 0px 36px 15px 36px;
+    /* margin: 20px; */
+}
+.md2-form{
+    
+    padding: 0px 36px 15px 36px;
+
+    
+    display: flex;
+    flex-direction: row;
+}
+.form-control{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px;
+    width: 100%;
+    display: block;
+    border-color: white;
+    border-radius: 5px;
+    /* background-clip: padding-box; */
+
+
+}
+.form-mobpin {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 0px 8px 16px;
+    width: 100%;
+    border-color: white;
+    border-radius: 5px;
+}
+.form-control:focus {
+    color: #2b2e33;
+    background-color: #fff;
+    border-color: #0074ff;
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgb(73 187 251 / 40%);
+}
+.form-mobpin:focus {
+    color: #2b2e33;
+    background-color: #fff;
+    border-color: #0074ff;
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgb(73 187 251 / 40%);
+}
+label.text-con {
+    font-size: 18px;
+    color: #000000f7;
+    font-family: monospace;
+    font-weight: bold;
+}
+.btn-success {
+    background: #20c702;
+    border: none;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: monospace;
+    padding: 9px 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.row.d-flex.align-items-center {
+    margin: 10px;
+}
+
+
+.form-check {
+    
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+    
+}
+@media(max-width: 1310px) {
+    .thumbnail{
+        width: 50%;
+    
+    }
+    .trust{
+        width: 50%;
+        padding: 0px 20px 40px;
+    
+    }
+    
+    .text-big{
+        color: rgb(72 203 64);
+        font-size: 25px;
+        font-weight: 700;    
+    }
+    .text-small{
+        color: #000000;
+        font-size: 20px;
+        font-weight: bold;
+        font-family:'Poppins', sans-serif;
+    }
+    .imgFluid {
+        width:420px;
+        height: 220px;
+        border-radius: 4px;
+        margin-top: 20px;
+        /* margin-left: -100px; */
+    }
+    .imgTrust {
+        width: 420px;
+        height: 225px;
+        border-radius: 4px;
+        margin: 0px 0px -58px -20px;
+
+        /* margin-left: -100px; */
+        
+    }
+    .t {
+        border-right: none;
+        border-bottom: 4px solid red;
+        width: 220px;
+        margin-top: -200px;  
+    }
+    .biharbhumi {
+        
+        font-size: 25px;
+        margin: -55px 0px -80px -132px;
+        padding-top: 90px;
+        color: #ef3232;
+    }
+    .section{
+        display: flex;
+        flex-direction: column;
+    }
+    .contentsection {
+        font-size: 20px;
+        background-image: url(bihar-3.png);
+        background-size: 1000px;
+        background-repeat: no-repeat;
+        color: rgb(0, 0, 0);
+        padding: 140px 0px 0px 46px;
+        margin: 5px 32px 0px 0px;
+    }
+}
+

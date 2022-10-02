@@ -1,0 +1,166 @@
+
+
+@media(max-width: 952px)
+{
+
+
+   .nav-list{
+        margin-top: 45px;
+        flex-direction: column;
+        transition: 0.3s ease;
+    }
+    .navbar-resp{
+        flex-direction: column;
+        height: 218px;
+        transition: 0.5s ease;
+    }
+    .rightNav {
+        width: 36%;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        right: 3%;
+        top: -2px;
+    }
+    .nav-list li {
+        
+        padding: 10px;
+    }
+    .nav-list li a:hover{
+        background-color: none;
+        border: 2px solid white;
+        border-radius: 2px;
+        padding: 5px;
+    }
+    #search {
+        width: 100%;
+        margin: 16px 12px 18px -22px;
+        padding: 0px 0px 0px 10px;
+    }
+    .btn-sm {
+        margin: -18px 20px 2px 0px;
+        padding: 5px 10px 8px 10px;
+        font-size: 14px;
+        border-bottom-right-radius: 18px;
+    }
+    .burger{
+        display: inline-block;
+    }
+    .burger:hover{
+        width: 33px;
+        padding: 1px ;
+        border: 1px solid white;
+        border-radius: 2px;
+        background: none;
+    }
+    .h-nav-resp{
+        height: 54px;
+    }
+    .v-class-resp{
+        opacity: 0;
+    }
+    .thumbnail{
+        width: 50%;
+    
+    }
+    .trust{
+        width: 50%;
+        padding: 0px 20px 40px;
+    
+    }
+    
+    .text-big{
+        color: rgb(72 203 64);
+        font-size: 25px;
+        font-weight: 400;    
+    }
+    .text-small{
+        color: #000000;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .imgFluid {
+        width:220px;
+        height: 150px;
+        border-radius: 4px;
+        margin-top: 20px;
+        /* margin-left: -100px; */
+    }
+    .imgTrust {
+        width: 220px;
+        height: 125px;
+        border-radius: 4px;
+        margin: 0px 0px -58px -20px;
+
+        /* margin-left: -100px; */
+        
+    }
+    .t {
+        border-right: none;
+        border-bottom: 4px solid red;
+        width: 220px;
+        margin-top: -200px;  
+    }
+    .biharbhumi {
+        /* display: flex;
+        flex-direction: column; */
+        font-size: 18px;
+        margin: -55px 0px -80px -132px;
+        padding-top: 90px;
+        color: #ef3232;
+    }
+    .section{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .logo .a-logo {
+        position: absolute;
+        top: -1px;
+    }
+    .logo .H{
+        margin: 6px 2px;
+        border: 1px solid white;
+    }
+    
+    .contact-img{
+
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .contentsection {
+        font-size: 20px;
+        background-image: url(bihar-3.png);
+        background-size: 500px;
+        background-repeat: no-repeat;
+        color: rgb(0, 0, 0);
+        padding: 67px 45px 20px 50px;
+        margin: 0px 150px 20px 115px;
+    }
+    .card-img{
+        width: 100%;
+        height: 820px;
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }  
+}
+
+/* @media(max-width: 960px){
+    .thumbnail{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    .trust{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    .t{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    .GovSection{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+} */
